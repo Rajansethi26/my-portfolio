@@ -1,13 +1,13 @@
 let resumeData = {
   "imagebaseurl":"https://techonoeticsclub.github.io/",
   "name": "Rajan Sethi",
-  "role": "Data Scientist aspirant",
-  "linkedinId":"https://www.linkedin.com/rajan-sethi-49aa4792/",
-  "roleDescription": " I like dabbling in various parts of software development and machine learning. Currently, I'm having 5 years of experience and pursuing executive education PGP - ML/AL from Texas University, Austin",
+  "role": "data scientist aspirant",
+  "linkedinId":"https://www.linkedin.com/in/rajan-sethi/",
+  "roleDescription": " I like dabbling in various parts of machine learning and software development. Currently, I'm having 5 years of experience and pursuing executive education PGP - ML/AL from Texas University, Austin",
   "socialLinks":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/rajan-sethi-49aa4792/",
+        "url":"https://www.linkedin.com/in/rajan-sethi/",
         "className":"fa fa-linkedin"
       },
       {
@@ -16,7 +16,7 @@ let resumeData = {
         "className":"fa fa-github"
       }
     ],
-  "aboutme":"I've five years of experience in IT industry and I've worked on various technologies and frameworks like Automation, React.JS, Java, SpringBoot",
+  "aboutme":"Always keen to learn new things.",
   "address":"India",
   "website":"https://eportfolio.greatlearning.in/rajan-sethi",
   "education":[
@@ -104,11 +104,11 @@ let resumeData = {
   ],
   "testimonials":[
     {
-      "description":"This is a sample testimonial",
+      "description":"Need to ask feedback",
       "name":"Some technical guy"
     },
     {
-      "description":"This is a sample testimonial",
+      "description":"Need to ask feedback",
       "name":"Some technical guy"
     }
   ]

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './about.css'
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="about">
+      <section className="about" id="about">
          <div className="row">
 
             <div className="three columns">

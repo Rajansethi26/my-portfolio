@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './header.css';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -23,7 +24,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h2 className="responsive-headline">{resumeData.name}</h2>
-               <h3>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h3 className="responsive-description">I am a {resumeData.role}.{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
