@@ -78,6 +78,15 @@ let resumeData = {
     },
     {
       "skillname":"SQL"
+    },
+    {
+      "skillname":"SpringBoot"
+    },
+    {
+      "skillname":"Python"
+    },
+    {
+      "skillname":"Heap Analytics"
     }
   ],
   "portfolio":[
