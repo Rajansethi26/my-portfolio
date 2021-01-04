@@ -113,15 +113,16 @@ let resumeData = {
   ],
   "testimonials":[
     {
+      "description":"Your self-motivation, dedication, and diligence are an inspiration for your team",
+      "name":"Jithendran Nair"
+    },
+    {
       "description":"Focused",
       "name":"Anonymous - cannot mention client name"
     },
     {
       "description":"Engineer who thinks like an engineer",
       "name":"Anonymous - cannot mention client name"
-    },{
-      "description":"Your self-motivation, dedication, and diligence are an inspiration for your team",
-      "name":"Jithendran Nair"
     }
   ]
 }
