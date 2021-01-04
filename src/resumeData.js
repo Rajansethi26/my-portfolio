@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl":"https://techonoeticsclub.github.io/",
   "name": "Rajan Sethi",
-  "role": "data scientist aspirant",
+  "role": "Data Scientist aspirant",
   "linkedinId":"https://www.linkedin.com/in/rajan-sethi/",
   "roleDescription": " I like dabbling in various parts of machine learning and software development. Currently, I'm having 5 years of experience and pursuing executive education PGP - ML/AL from Texas University, Austin",
   "socialLinks":[
@@ -59,7 +59,7 @@ let resumeData = {
       "Achievements":"Application - Gentera"
     }
   ],
-  "skillsDescription":"I have worked on various technologies and domains : ",
+  "skillsDescription":"I have worked on various technologies and domains: ",
   "skills":[
     {
       "skillname":"Neural Network"
@@ -113,12 +113,12 @@ let resumeData = {
   ],
   "testimonials":[
     {
-      "description":"Need to ask feedback",
-      "name":"Some technical guy"
+      "description":"Focused",
+      "name":"Anonymous - cannot mention client name"
     },
     {
-      "description":"Need to ask feedback",
-      "name":"Some technical guy"
+      "description":"Engineer who thinks like an engineer",
+      "name":"Anonymous - cannot mention client name"
     }
   ]
 }
