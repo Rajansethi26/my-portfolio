@@ -1,32 +1,32 @@
 let resumeData = {
   "imagebaseurl":"https://techonoeticsclub.github.io/",
   "name": "Rajan Sethi",
-  "role": "Data Scientist aspirant",
+  "role": "Full stack automation engineer",
   "linkedinId":"https://www.linkedin.com/in/rajan-sethi/",
-  "roleDescription": " I like dabbling in various parts of machine learning and software development. Currently, I'm having 5 years of experience and pursuing executive education PGP - ML/AL from Texas University, Austin",
+  "roleDescription": "Currently working with Srijan technologies as Lead L1. I have worked on various technologies and I try to reduce manual effort whenever and wherever required",
   "socialLinks":[
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/rajan-sethi/",
         "className":"fa fa-linkedin"
       },
-      {
+      /*{
         "name":"github",
         "url":"https://eportfolio.greatlearning.in/rajan-sethi",
         "className":"fa fa-github"
-      }
+      }*/
     ],
-  "aboutme":"Always keen to learn new things.",
+  "aboutme":" Traveler who is passionate about engineering and innovation",
   "address":"India",
-  "website":"https://eportfolio.greatlearning.in/rajan-sethi",
+  "website":"https://www.rajan-sethi.com/",
   "education":[
-    {
+/*    {
       "UniversityName":"The University of Texas, Austin",
       "specialization":"Machine Learning/Artificial Intelligence and Mathematics",
       "MonthOfPassing":"Mar",
       "YearOfPassing":"2021",
       "Achievements":"Researched on COVID-19 using Mathematical Model which got highlighted in ML/AI conference."
-    },
+    },*/
     {
       "UniversityName":"IP University",
       "specialization":"Computer Science Engineering",
@@ -39,10 +39,10 @@ let resumeData = {
     {
       "CompanyName":"Srijan Technology",
       "Client":"McKinsey & Company",
-      "specialization":"Senior Software Engineer L2",
+      "specialization":"Lead L1",
       "MonthOfLeaving":"Nov'18 - currently working",
       "YearOfLeaving":"",
-      "Achievements":"Client - McKinsey & Company"
+      "Achievements":"Client - McKinsey & Company",
     },
     {
       "CompanyName":"Bharti Airtel",
@@ -59,38 +59,35 @@ let resumeData = {
       "Achievements":"Application - Gentera"
     }
   ],
-  "skillsDescription":"I have worked on various technologies and domains: ",
+  "skillsDescription":"Everyone has talent. What's rare is the courage to follow it to the dark places where it leads.― Erica Jong",
   "skills":[
     {
-      "skillname":"Neural Network"
+      "skillname":"Web Automation"
     },
     {
-      "skillname":"Supervised Learing"
+      "skillname":"Backend Automation"
     },
     {
-      "skillname":"Unsupervised learning"
+      "skillname":"Performance"
     },
     {
-      "skillname":"Hypothesis Analysis/Testing"
+      "skillname":"QAOps"
+    },
+    {
+      "skillname":"Data Structures"
     },
     {
       "skillname":"Java"
     },
     {
-      "skillname":"SQL"
-    },
-    {
-      "skillname":"SpringBoot"
-    },
-    {
-      "skillname":"Python"
-    },
-    {
       "skillname":"Heap Analytics"
+    },
+    {
+      "skillname":"DataBase"
     }
   ],
   "portfolio":[
-    {
+    /*{
       "name":"Product Recommendation Systems",
       "description":"Skills and Tools - Collaborative Filtering, Recommender Systems, Python",
       "imgurl":"images/portfolio/phone.jpg"
@@ -109,7 +106,7 @@ let resumeData = {
       "name":"Identifying potential customers for loans",
       "description":"Skills and Tools - Logistic Regression, KNN, Classification",
       "imgurl":"images/portfolio/phone.jpg"
-    }
+    }*/
   ],
   "testimonials":[
     {
@@ -118,11 +115,11 @@ let resumeData = {
     },
     {
       "description":"Focused",
-      "name":"Anonymous - cannot mention client name"
+      "name":"Anonymous"
     },
     {
       "description":"Engineer who thinks like an engineer",
-      "name":"Anonymous - cannot mention client name"
+      "name":"Anonymous"
     }
   ]
 }
