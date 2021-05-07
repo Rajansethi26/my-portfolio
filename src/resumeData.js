@@ -3,7 +3,7 @@ let resumeData = {
   "name": "Rajan Sethi",
   "role": "Full stack automation engineer",
   "linkedinId":"https://www.linkedin.com/in/rajan-sethi/",
-  "roleDescription": "Currently working with Srijan technologies as Lead L1. I have worked on various technologies and I try to reduce manual effort whenever and wherever required",
+  "roleDescription": " Currently working with Srijan technologies as Lead L1. I have worked on various technologies and I try to reduce manual effort whenever and wherever required",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -16,7 +16,7 @@ let resumeData = {
         "className":"fa fa-github"
       }*/
     ],
-  "aboutme":" Traveler who is passionate about engineering and innovation",
+  "aboutme":"A traveler who is passionate about engineering and innovation",
   "address":"India",
   "website":"https://www.rajan-sethi.com/",
   "education":[
@@ -86,8 +86,8 @@ let resumeData = {
       "skillname":"DataBase"
     }
   ],
-  "portfolio":[
-    /*{
+   /*"portfolio":[
+   {
       "name":"Product Recommendation Systems",
       "description":"Skills and Tools - Collaborative Filtering, Recommender Systems, Python",
       "imgurl":"images/portfolio/phone.jpg"
@@ -106,8 +106,8 @@ let resumeData = {
       "name":"Identifying potential customers for loans",
       "description":"Skills and Tools - Logistic Regression, KNN, Classification",
       "imgurl":"images/portfolio/phone.jpg"
-    }*/
-  ],
+    }
+  ],*/
   "testimonials":[
     {
       "description":"Your self-motivation, dedication, and diligence are an inspiration for your team",
