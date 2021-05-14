@@ -39,7 +39,7 @@ let resumeData = {
     {
       "CompanyName":"Srijan Technology",
       "Client":"McKinsey & Company",
-      "specialization":"Senior Software Engineer L2",
+      "specialization":"Lead L1",
       "MonthOfLeaving":"Nov'18 - currently working",
       "YearOfLeaving":"",
       "Achievements":"Client - McKinsey & Company"
