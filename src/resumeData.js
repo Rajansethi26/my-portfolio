@@ -16,7 +16,7 @@ let resumeData = {
         "className":"fa fa-github"
       }
     ],
-  "aboutme":"Always keen to learn new things.",
+  "aboutme":"A traveler who is passionate about engineering and innovation.",
   "address":"India",
   "website":"https://eportfolio.greatlearning.in/rajan-sethi",
   "education":[
@@ -71,13 +71,16 @@ let resumeData = {
       "skillname":"Unsupervised learning"
     },
     {
+      "skillname":"SQL"
+    },
+    {
+      "skillname":"POWER BI"
+    },
+    {
       "skillname":"Hypothesis Analysis/Testing"
     },
     {
       "skillname":"Java"
-    },
-    {
-      "skillname":"SQL"
     },
     {
       "skillname":"SpringBoot"
@@ -87,6 +90,9 @@ let resumeData = {
     },
     {
       "skillname":"Heap Analytics"
+    },
+    {
+      "skillname":"ReactJS"
     }
   ],
   "portfolio":[
