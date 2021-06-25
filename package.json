@@ -5,6 +5,8 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-images-upload": "^1.2.8",
+    "react-loader-spinner": "^4.0.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
