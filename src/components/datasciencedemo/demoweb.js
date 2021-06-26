@@ -107,7 +107,7 @@ export default class DemoWeb extends Component {
                   </div>
                 </div>
 
-                <button class="button" onClick={this.handleClick}> Generate </button>
+                <button class="button"> Generate </button>
                 </div>
             }
         </div>

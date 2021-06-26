@@ -18,6 +18,19 @@ export default class Demo extends Component {
              this.refresh = this.refresh.bind(this);
         }
 
+/*
+        async componentDidMount() {
+
+            const response = await fetch('https://geolocation-db.com/json/');
+            const data = await response.json();
+            console.log(data)
+            this.setState({ ip: data.IPv4 })
+            if(this.state.ip == '103.196.53.89'){
+//                alert(this.state.ip)
+                   alert('You dont have access to it')
+            }
+        }*/
+
         refresh() {
           console.log("Clicked");
           window.location.reload();
@@ -33,14 +46,14 @@ export default class Demo extends Component {
             }
 
             handleClick() {
-                this.setState(prevState => ({
+                /*this.setState(prevState => ({
                   flag: true,
                   loader:true,
-                }));
-
-                setTimeout(function() { //Start the timer
+                }));*/
+                alert('Please switch to zoom, user is showing on localhost')
+               /* setTimeout(function() { //Start the timer
                       this.setState({loader: false}) //After 1 second, set render to true
-                  }.bind(this), 3000)
+                  }.bind(this), 3000)*/
               }
 
 
