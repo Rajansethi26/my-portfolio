@@ -16,12 +16,48 @@
 }
 .demo {
     background: white;
+
+}
+
+.refresh {
+    margin-left: 90%;
+    opacity: 0.6;
+    background-color: black;
+
 }
 
 .videoplayer {
-    margin-left: 43%;
+    margin-left: 35%;
     margin-top:3%;
     margin-bottom:3%;
+}
+
+.webcam {
+    width:290px !important;
+    margin-left:15%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.loader{
+  margin-left:47%;
+  margin-top:1%;
+}
+
+.custom-file-upload {
+  position: relative;
+  top: 50px;
+  width: 170px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+  margin-left:25%;
 }
 
 .subheading {

@@ -7,7 +7,10 @@
     "react-dom": "^16.4.0",
     "react-images-upload": "^1.2.8",
     "react-loader-spinner": "^4.0.0",
-    "react-scripts": "1.1.4"
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "1.1.4",
+    "react-webcam": "^5.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

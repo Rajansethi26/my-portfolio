@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './demo.css'
 import ImageUploader from 'react-images-upload';
-import Loader from "react-loader-spinner";
-export default class Demo extends Component {
+import Webcam from "react-webcam";
+export default class DemoWeb extends Component {
 
     state:{
         flag:false,
-        uploadImageName:'',
-        loader:false
+        uploadImageName:''
     }
 
     constructor(props) {
@@ -15,12 +14,7 @@ export default class Demo extends Component {
              this.state = { pictures: [] };
              this.onDrop = this.onDrop.bind(this);
              this.handleClick = this.handleClick.bind(this);
-             this.refresh = this.refresh.bind(this);
-        }
-
-        refresh() {
-          console.log("Clicked");
-          window.location.reload();
+             this.capture = this.capture.bind(this);
         }
 
         onDrop(event) {
@@ -35,12 +29,12 @@ export default class Demo extends Component {
             handleClick() {
                 this.setState(prevState => ({
                   flag: true,
-                  loader:true,
                 }));
+              }
 
-                setTimeout(function() { //Start the timer
-                      this.setState({loader: false}) //After 1 second, set render to true
-                  }.bind(this), 3000)
+              capture() {
+                const imageSrc = this.webcamRef.current.getScreenshot();
+                [this.webcamRef]
               }
 
 
@@ -62,12 +56,6 @@ export default class Demo extends Component {
                                 <source src="images/integrated.mp4" type="video/mp4"/>
                                 Sorry, your browser doesn't support embedded videos.
                               </video>);
-
-                    case 'scarydoll.png':
-                      return (<video class ="videoplayer" width="400" controls="controls">
-                                <source src="images/animated.mp4" type="video/mp4"/>
-                                Sorry, your browser doesn't support embedded videos.
-                              </video>);
                     default:
                       return (<p class="videoTitle"><strong>Please upload driving video and image</strong></p>);
                   }
@@ -78,39 +66,44 @@ export default class Demo extends Component {
     render() {
       let datascienceData = this.props.dataScience;
       const isLoggedIn = this.state.flag;
-//      console.log(this.state.uploadImageName)
+      console.log(this.state.uploadImageName)
       return (
         <div class="demo">
-        <h2 class = "title">Capstone Project</h2>
+        <h2 class = "title"> Capstone project demo</h2>
             {isLoggedIn ? <div>
-            <button class="refresh" onClick={ this.refresh.bind(this) }> Refresh </button>
             <h2 class="videoTitle">Generated Video</h2>
-                {this.state.loader ?
-                <Loader
-                        type="ThreeDots"
-                        color="#00BFFF"
-                        height={50}
-                        width={50}
-                        className="loader"
-                      />
-                      : <div>{this.checkVideoCondition(this.state.uploadImageName)}</div>}
+              {this.checkVideoCondition(this.state.uploadImageName)}
+
             </div>
             : <div>
-                <button class="refresh" onClick={ this.refresh.bind(this) }> Refresh </button>
                   <div class="row">
                   <div class="column" >
                     <h2 class="subheading">Upload driving video</h2>
+
                     <label class="custom-file-upload">
                         <input type="file" onChange={this.onDrop}/>
-                        <i class="fa fa-cloud-upload"></i> Driving Video
+                        <i class="fa fa-cloud-upload"></i> Custom Upload
                     </label>
                   </div>
                   <div class="column" >
                     <h2 class="subheading">Upload image</h2>
                     <label class="custom-file-upload">
                         <input type="file" onChange={this.onDrop}/>
-                        <i class="fa fa-cloud-upload"></i> Initial Frame
+                        <i class="fa fa-cloud-upload"></i> Custom Upload
                     </label>
+                  </div>
+                  <div class="column" >
+                    <h2 class="subheading">WebCam</h2>
+                    <Webcam
+                        audio={false}
+                        height={220}
+                        width={20}
+                        screenshotFormat="image/jpeg"
+                        width={1280}
+                        ref={this.webcamRef}
+                        class="webcam"
+                      />
+                      <button class="button">Capture video</button>
                   </div>
                 </div>
 
