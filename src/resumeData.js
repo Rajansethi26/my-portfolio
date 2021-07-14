@@ -23,7 +23,7 @@ let resumeData = {
     {
       "UniversityName":"The University of Texas, Austin",
       "specialization":"Machine Learning/Artificial Intelligence and Mathematics",
-      "MonthOfPassing":"-- present",
+      "MonthOfPassing":"-- July'21",
       "YearOfPassing":"",
       "Achievements":"Researched on COVID-19 using Mathematical Model which got highlighted in ML/AI conference."
     },
@@ -45,7 +45,7 @@ let resumeData = {
       "Achievements":"Client - McKinsey & Company"
     },
     {
-      "CompanyName":"Bharti Airtel",
+      "CompanyName":"Airtel xLabs",
       "specialization":"Software Engineer",
       "MonthOfLeaving":"July",
       "YearOfLeaving":"2018",
